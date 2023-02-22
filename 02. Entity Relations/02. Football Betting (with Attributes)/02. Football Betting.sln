@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02_FootballBetting", "P03_FootballBetting\P02_FootballBetting.csproj", "{644E62EC-2772-4410-BA05-B20748B463B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02_FootballBetting.Data", "P03_FootballBetting.Data\P02_FootballBetting.Data.csproj", "{7BF77DB6-E07C-4349-ABC3-520A5D0B5CC5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1A1C36F1-44A3-459A-8625-B9AD88BC5125} = {1A1C36F1-44A3-459A-8625-B9AD88BC5125}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02_FootballBetting.Data.Models", "P03_FootballBetting.Data.Models\P02_FootballBetting.Data.Models.csproj", "{1A1C36F1-44A3-459A-8625-B9AD88BC5125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{644E62EC-2772-4410-BA05-B20748B463B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644E62EC-2772-4410-BA05-B20748B463B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644E62EC-2772-4410-BA05-B20748B463B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644E62EC-2772-4410-BA05-B20748B463B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF77DB6-E07C-4349-ABC3-520A5D0B5CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF77DB6-E07C-4349-ABC3-520A5D0B5CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF77DB6-E07C-4349-ABC3-520A5D0B5CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF77DB6-E07C-4349-ABC3-520A5D0B5CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1C36F1-44A3-459A-8625-B9AD88BC5125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1C36F1-44A3-459A-8625-B9AD88BC5125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1C36F1-44A3-459A-8625-B9AD88BC5125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1C36F1-44A3-459A-8625-B9AD88BC5125}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {357CFF3D-60BA-4325-AC32-4F91B0C40519}
+	EndGlobalSection
+EndGlobal

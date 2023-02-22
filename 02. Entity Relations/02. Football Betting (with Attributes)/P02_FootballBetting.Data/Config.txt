@@ -1,0 +1,1 @@
+Server=.; Database=FootballBettingSystem; Integrated Security=true; TrustServerCertificate=True
