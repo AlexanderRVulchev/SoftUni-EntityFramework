@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-16"?>
+<cars>
+  <car make="Chevy" model="Corvette" traveled-distance="520332790">
+    <parts>
+      <part name="Door latch" price="2331.99" />
+      <part name="Muffler" price="106.90" />
+      <part name="Engine" price="100.99" />
+      <part name="Rear Right Side Door Glass" price="100.90" />
+      <part name="Oil pump" price="100.19" />
+      <part name="Back Door Outer Door Handle" price="43.99" />
+      <part name="Engine cradle" price="39.99" />
+      <part name="Fan belt" price="10.99" />
+      <part name="Heat shield" price="10.99" />
+      <part name="Distributor cap" price="9.99" />
+    </parts>
+  </car>
+  <car make="Skoda" model="Fabia" traveled-distance="520029040">
+    <parts>
+      <part name="Cowl screen" price="1500.34" />
+      <part name="Door seal" price="444.99" />
+      <part name="Valve housing" price="400.99" />
+      <part name="Tappet" price="300.29" />
+      <part name="Water pump pulley" price="150.99" />
+      <part name="Sunroof" price="103.43" />
+      <part name="Front clip" price="100.00" />
+      <part name="Timing tape" price="40.90" />
+      <part name="Fan belt" price="10.99" />
+      <part name="Cylinder head" price="6.99" />
+    </parts>
+  </car>
+  <car make="Alfa Romeo" model="Giulietta" traveled-distance="519844092">
+    <parts>
+      <part name="Rear Left Side Outer door handle" price="120.99" />
+      <part name="Transmission pan" price="106.99" />
+      <part name="Window seal" price="100.99" />
+    </parts>
+  </car>
+  <car make="Opel" model="Astra" traveled-distance="516628215">
+    <parts>
+      <part name="Tappet" price="300.29" />
+      <part name="Front Left Side Door Glass" price="100.92" />
+      <part name="Fan belt" price="10.99" />
+    </parts>
+  </car>
+  <car make="Great Wall" model="Haval H6" traveled-distance="515863753">
+    <parts>
+      <part name="Valve housing" price="400.99" />
+      <part name="Fuel pressure regulator" price="100.99" />
+    </parts>
+  </car>
+</cars>
