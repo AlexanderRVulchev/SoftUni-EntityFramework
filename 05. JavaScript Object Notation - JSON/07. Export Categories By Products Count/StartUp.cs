@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using ProductShop.Data;
 using ProductShop.Models;
 
@@ -56,8 +56,8 @@ namespace ProductShop
                 {
                     category = c.Name,
                     productsCount = c.CategoriesProducts.Count,
-                    averagePrice = Math.Round((double)c.CategoriesProducts.Average(p => p.Product.Price), 2),
-                    totalRevenue = Math.Round((double)c.CategoriesProducts.Sum(p => p.Product.Price), 2)
+                    averagePrice = c.CategoriesProducts.Average(p => p.Product.Price).ToString("f2"),
+                    totalRevenue = c.CategoriesProducts.Sum(p => p.Product.Price).ToString("f2")
                 })
                 .ToArray();
 
