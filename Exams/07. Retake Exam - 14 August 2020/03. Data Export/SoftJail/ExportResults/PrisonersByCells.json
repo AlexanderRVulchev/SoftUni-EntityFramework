@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 15,
+    "Name": "Jenny Rhys",
+    "CellNumber": 202,
+    "Officers": [
+      {
+        "OfficerName": "Minerva Holl",
+        "Department": "StackOverflow"
+      },
+      {
+        "OfficerName": "Riccardo Fockes",
+        "Department": "Blockchain"
+      }
+    ],
+    "TotalOfficerSalary": 6206.53
+  },
+  {
+    "Id": 1,
+    "Name": "Melanie Simonich",
+    "CellNumber": 105,
+    "Officers": [
+      {
+        "OfficerName": "Paddy Weiner",
+        "Department": "Blockchain"
+      }
+    ],
+    "TotalOfficerSalary": 2854.56
+  }
+]
